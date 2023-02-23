@@ -18,4 +18,6 @@ def start(message):
     bot.send_message(message.chat.id,'ok fen')
 
 if __name__ == '__main__':
-    app.run(debug=True, port=os.getenv("PORT", default=5000))
+   app.run(
+    host="0.0.0.0",
+)
