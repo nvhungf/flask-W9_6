@@ -3,7 +3,7 @@ import telebot
 from flask import Flask, request
 # secret = 'abcookkkkkk'
 token = '6204857251:AAH6rSpTklODerCsdGWJ29P_sxE_8hkSV3Y'
-url = 'https://flask-production-54e7.up.railway.app/' 
+url = 'https://flask-production-7237.up.railway.app/' 
 bot = telebot.TeleBot(token=token, threaded = False)
 bot.remove_webhook()
 bot.set_webhook(url=url)
